@@ -1,7 +1,7 @@
 syntaxMarkerFold
 ================
 
-Makers while using syntax fold method
+Markers while using syntax fold method
 
 ## Installation
 
