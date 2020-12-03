@@ -8,16 +8,16 @@ let s:cpo_save = &cpo | set cpo&vim
 function! s:genLeveled(lvl) abort
   let l:higherLvls = ""
   for i in range(a:lvl-1, 0, -1)
-    let l:higherLvls .= " end = '\\ze\\V" . s:st1[1:] . i . s:ed
-    let l:higherLvls .= " end = '\\ze\\V" . s:st2[1:] . i . s:ed
+    let l:higherLvls .= " end = '\\ze" . s:st1[1:] . i . s:ed
+    let l:higherLvls .= " end = '\\ze" . s:st2[1:] . i . s:ed
   endfor
 
   exec "syn region syntaxMarkerFold" . a:lvl . " matchgroup=Comment transparent fold"
         \ "start = " . s:st1 . a:lvl . s:ed
         \ "end   = " . s:st2 . a:lvl . s:ed
+        \ "end   = '\\ze" . s:st1[1:] . a:lvl . s:ed
         \ l:higherLvls
-        \ "end   = '\\ze\\V" . s:st2[3:] . s:ed
-        \ "end   = '\\ze\\V" . s:st1[3:] . s:ed
+        \ "end   = '\\ze" . s:st2[1:] . s:ed
 
 endfunction
 
