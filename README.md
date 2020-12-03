@@ -21,6 +21,12 @@ cd ~/.vim/pack/plugins/start
 git clone git://github.com/Jorengarenar/vim-syntaxMarkerFold.git
 ```
 
+## Usage
+
+You only need to install this plugin and have `foldmethod` set to `syntax`.
+Markers should behave the way described in `:h fold-marker` (except `zf`
+and `zd` mappings).
+
 ## Configuration
 
 By default the max level of leveled marker (i.e. `{{{1`, `{{{2`, ...) is limited
