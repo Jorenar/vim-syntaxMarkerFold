@@ -7,18 +7,18 @@ Makers while using syntax fold method
 
 #### [minPlug](https://github.com/Jorengarenar/minPlug):
 ```vim
-MinPlug Jorengarenar/syntaxMarkerFold
+MinPlug Jorengarenar/vim-syntaxMarkerFold
 ```
 
 #### [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
-Plug 'Jorengarenar/syntaxMarkerFold'
+Plug 'Jorengarenar/vim-syntaxMarkerFold'
 ```
 
 #### Vim's packages
 ```bash
 cd ~/.vim/pack/plugins/start
-git clone git://github.com/Jorengarenar/syntaxMarkerFold.git
+git clone git://github.com/Jorengarenar/vim-syntaxMarkerFold.git
 ```
 
 ## Configuration
