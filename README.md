@@ -1,7 +1,7 @@
 syntaxMarkerFold
 ================
 
-Markers while using syntax fold method
+Emulates marker folds while using _syntax_ [`foldmethod`](https://vimhelp.org/fold.txt.html#fold-methods)
 
 ## Installation
 
