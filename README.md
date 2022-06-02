@@ -37,7 +37,7 @@ Matching pairs markers are independent from this variable.
 
 #### Minimal _vimrc_ setup
 ```vim
-filetype plugin on " must be before `syntax enable`
+filetype plugin on  " must be before `syntax enable`
 syntax enable
 set foldmethod=syntax
 ```
