@@ -35,7 +35,7 @@ value (local to buffer `b:syntaxMarkerFold_maxlevel` is also available).
 
 Matching pairs markers are independent from this variable.
 
-#### Minimal vimrc setup
+#### Minimal _vimrc_ setup
 ```vim
 filetype plugin on " must be before `syntax enable`
 syntax enable
