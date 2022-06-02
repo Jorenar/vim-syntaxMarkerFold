@@ -34,3 +34,10 @@ to 5. If you wish to increase it, set `g:syntaxMarkerFold_maxlevel` to desired
 value (local to buffer `b:syntaxMarkerFold_maxlevel` is also available).
 
 Matching pairs markers are independent from this variable.
+
+#### Minimal vimrc setup (order important)
+```vim
+filetype plugin on
+syntax enable
+set foldmethod=syntax
+```
