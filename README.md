@@ -5,20 +5,15 @@ Emulates marker folds while using _syntax_ [`foldmethod`](https://vimhelp.org/fo
 
 ## Installation
 
-#### [minPlug](https://github.com/Jorengarenar/minPlug):
-```vim
-MinPlug Jorengarenar/vim-syntaxMarkerFold
-```
-
 #### [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
-Plug 'Jorengarenar/vim-syntaxMarkerFold'
+Plug 'Jorenar/vim-syntaxMarkerFold'
 ```
 
 #### Vim's packages
 ```bash
 cd ~/.vim/pack/plugins/start
-git clone git://github.com/Jorengarenar/vim-syntaxMarkerFold.git
+git clone git://github.com/Jorenar/vim-syntaxMarkerFold.git
 ```
 
 ## Usage
