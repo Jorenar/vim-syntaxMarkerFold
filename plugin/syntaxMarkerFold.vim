@@ -1,6 +1,6 @@
 " syntaxMarkerFold
-" Maintainer:  Jorengarenar <https://joren.ga>
-" License:     MIT
+" Author:  Jorenar
+" License: MIT
 
 if exists("g:loaded_syntaxMarkerFold") | finish | endif
 let s:cpo_save = &cpo | set cpo&vim
