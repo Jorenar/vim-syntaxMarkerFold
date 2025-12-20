@@ -7,13 +7,13 @@ Emulates marker folds while using _syntax_ [`foldmethod`](https://vimhelp.org/fo
 
 #### [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
-Plug 'Jorenar/vim-syntaxMarkerFold'
+Plug 'https://codeberg.org/Jorenar/vim-syntaxMarkerFold.git'
 ```
 
 #### Vim's packages
 ```bash
 cd ~/.vim/pack/plugins/start
-git clone git://github.com/Jorenar/vim-syntaxMarkerFold.git
+git clone https://codeberg.org/Jorenar/vim-syntaxMarkerFold.git
 ```
 
 ## Usage
